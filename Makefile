@@ -15,3 +15,8 @@ link:
 
 preprocess:
 	gcc -E hello.c
+
+cbc-1.0:
+	curl -O http://i.loveruby.net/archive/cbc/cbc-1.0.tar.gz
+	tar xzf cbc-1.0.tar.gz
+	rm -rf cbc-1.0.tar.gz
